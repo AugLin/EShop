@@ -1,0 +1,27 @@
+<body>
+    <div class="product-container">
+      <img
+        class="product-image"
+        src="{{product.imgUrl}}"
+        alt="Beyond Good And Evil"
+      />
+      <div class="product-details">
+        <div class="product-title">{{product.name}}</div>
+        <div class="product-price">{{product.price}}</div>
+        <div class="product-description">
+          {{product.description}}
+        </div>
+        <div class="product-actions">
+          <select class="quantity-select">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+</body>
+
